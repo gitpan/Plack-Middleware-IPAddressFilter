@@ -18,8 +18,11 @@ no_index:
     - inc
     - t
     - xt
+requires:
+  Net::IP::AddrRanges: 0
+  Plack: 0
 resources:
   homepage: http://github.com/rintaro/Plack-Middleware-IPAddressFilter/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/rintaro/Plack-Middleware-IPAddressFilter.git
-version: 0.01
+version: 0.02
